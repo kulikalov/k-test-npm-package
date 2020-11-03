@@ -1,1 +1,2 @@
-module.exports = (a, b) => a + b
+const moment = require('moment')
+module.exports = (a, b) => moment().format()
